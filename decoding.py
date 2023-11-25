@@ -1,6 +1,11 @@
+import random
 str = input(" enter string :")
 coding = int(input( " 1 for coding and 0 for decoding :"))
+'''
+add first char of the word at the end of the word
+3 random char are added before and after
 
+'''
 coding == True if coding == 1 else False
 words =str.split()
 if (coding):
