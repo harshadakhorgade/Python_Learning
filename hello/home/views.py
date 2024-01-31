@@ -34,6 +34,7 @@ def contact(request):
         contact.save()
 
         # it is used to flash the success msg on page
+        # this is type of django messaging ft=ramework search it
         messages.success(request, 'Your message has been sent!')
     return render(request, 'contact.html')
  
